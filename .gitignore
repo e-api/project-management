@@ -1,0 +1,32 @@
+# Node modules
+backend/node_modules/
+frontend/node_modules/
+
+# Build outputs
+backend/dist/
+frontend/dist/
+frontend/build/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Frontend cache files (if using Vite, React, etc.)
+frontend/.vite/
+frontend/.cache/
+
+# Optional: lockfiles if you want to ignore them (or keep if needed)
+# package-lock.json
+# yarn.lock
+
